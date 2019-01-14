@@ -1,0 +1,19 @@
+Y.A.S.S. :: Yet Another Stupid Script
+
+Partendo da un file contenente un elenco di password in chiaro si lancia il comando seguito dall'algoritmo di hash che si vuole usare (md5, sha1, sha265, sha384, sha512) e dal file contenente le password in chiaro (una per riga).
+
+Esempio file input: password
+----------------------------
+pippo
+pluto
+paperino
+
+Esempio comando: 
+----------------
+$ ./yassHash.py md5 password
+
+Esempio file output: password-md5
+---------------------------------
+pippo:0c88028bf3aa6a6a143ed846f2be1ea4
+pluto:c6009f08fc5fc6385f1ea1f5840e179f
+paperino:b54b45b19ca1f1ddc424e6b878a53f2d
